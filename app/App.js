@@ -1,5 +1,6 @@
 import React, { Compponent } from 'react'
 import { View, ScrollView, StyleSheet } from 'react-native'
+import Heading from './Heading'
 
 class App extends Compponent {
   constructor() {
@@ -15,7 +16,7 @@ class App extends Compponent {
     return (
       <View style={styles.container}>
         <ScrollView keyboardShouldPersistTaps="always" style={styles.container}>
-          <View />
+          <Heading />
         </ScrollView>
       </View>
     )
